@@ -152,6 +152,10 @@ const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
+const newFeautre = function () {
+  console.log('welocme to the pizza store');
+};
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipe);
@@ -160,6 +164,6 @@ const init = function () {
   recipeView.addHandlerUpdateServings(controlServings);
   recipeView.addHandlerAddBookmark(controlBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('welcome');
+  newFeautre();
 };
 init();
