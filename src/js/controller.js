@@ -121,7 +121,6 @@ const controlAddRecipe = async function (newRecipe) {
 
     // upload the new recipe data
     await model.uploadRecipe(newRecipe);
-    console.log(model.state.recipe);
 
     // show success message
     addRecipeView.successMessage();
@@ -150,10 +149,6 @@ const controlAddRecipe = async function (newRecipe) {
 
 const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
-};
-
-const newFeautre = function () {
-  console.log('welocme to the pizza store');
 };
 
 const init = function () {

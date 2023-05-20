@@ -135,7 +135,6 @@ class RecipeView extends View {
       </svg>
     </a>
   </div>`;
-    console.log(this._data);
   }
 }
 

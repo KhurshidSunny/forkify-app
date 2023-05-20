@@ -37,9 +37,6 @@ export default class View {
     newElements.forEach((newEl, i) => {
       const curEl = currentElements[i];
 
-      // comparing the values of elements of both elements
-      console.log(curEl, newEl.isEqualNode(curEl));
-
       // update chnaged Text
       if (
         !newEl.isEqualNode(curEl) &&

@@ -10,8 +10,8 @@ class paginationView extends View {
       const gotoPage = +btn.dataset.goto;
       if (!btn) return;
 
-      console.log(btn);
-      console.log(gotoPage);
+      // console.log(btn);
+      // console.log(gotoPage);
 
       handler(gotoPage);
     });
